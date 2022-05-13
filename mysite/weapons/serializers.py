@@ -4,10 +4,9 @@ from .models import Arma, Municao
 class ArmaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Arma
-        fields = ['id', 'marca', 'modelo', 'quantidade_de_tiros','valor_estimado','imagem']
-
+        fields = '__all__'
 
 class MunicaoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Municao
-        fields = ['id', 'marca', 'modelo', 'valor_estimado']
+        fields = '__all__'

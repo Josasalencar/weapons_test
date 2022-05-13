@@ -6,3 +6,4 @@ from .serializers import ArmaSerializer,MunicaoSerializer
 class ArmaViewSet(viewsets.ModelViewSet):
     queryset = Arma.objects.all()
     serializer_class = ArmaSerializer
+

@@ -20,7 +20,7 @@ from weapons.views import ArmaViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'users', ArmaViewSet)
+router.register(r'weapons', ArmaViewSet, basename= 'Weapons')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
