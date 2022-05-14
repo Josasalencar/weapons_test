@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path , include
 from rest_framework import routers
-from weapons.views import ArmaViewSet
+from weapons.views import ArmaViewSet, MunicaoViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'weapons', ArmaViewSet, basename= 'Weapons')
+router.register(r'weapons/arma', ArmaViewSet, basename= 'Arma')
+router.register(r'weapons/municao', MunicaoViewSet, basename= 'Municao')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

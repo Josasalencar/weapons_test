@@ -7,3 +7,6 @@ class ArmaViewSet(viewsets.ModelViewSet):
     queryset = Arma.objects.all()
     serializer_class = ArmaSerializer
 
+class MunicaoViewSet(viewsets.ModelViewSet):
+    queryset = Municao.objects.all()
+    serializer_class = MunicaoSerializer

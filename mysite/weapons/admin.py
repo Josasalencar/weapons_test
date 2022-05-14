@@ -4,5 +4,6 @@ from .models import Arma,Municao
 
 
 admin.site.register(Arma)
+admin.site.register(Municao)
 
 # Register your models here.
