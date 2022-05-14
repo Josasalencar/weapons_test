@@ -1,0 +1,16 @@
+[
+  {
+    "model": "weapons.Objeto_tipo",
+    "pk": 1,
+    "fields": {
+      "tipo_objeto": "arma"
+    }
+  },
+    {
+    "model": "weapons.Objeto_tipo",
+    "pk": 2,
+    "fields": {
+      "tipo_objeto": "municao"
+    }
+  }
+]

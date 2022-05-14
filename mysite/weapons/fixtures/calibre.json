@@ -1,0 +1,30 @@
+[
+  {
+    "model": "weapons.Calibre",
+    "pk": 1,
+    "fields": {
+      "desc_calibre": "38"
+    }
+  },
+    {
+    "model": "weapons.Calibre",
+    "pk": 2,
+    "fields": {
+      "desc_calibre": "380"
+    }
+  },
+    {
+    "model": "weapons.Calibre",
+    "pk": 3,
+    "fields": {
+      "desc_calibre": ".40"
+    }
+  },
+    {
+    "model": "weapons.Calibre",
+    "pk": 4,
+    "fields": {
+      "desc_calibre": ".45"
+    }
+  }
+]
